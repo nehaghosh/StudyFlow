@@ -57,7 +57,7 @@ the tool rejects it and returns:
 
 `Deadline must be in YYYY-MM-DD format.`
 
-## ⚠️ Out-of-Scope Handling
+## Out-of-Scope Handling
 
 StudyFlow is designed specifically for academic planning.
 It should not behave like a general-purpose chatbot.
