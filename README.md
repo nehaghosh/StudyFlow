@@ -57,6 +57,14 @@ the tool rejects it and returns:
 
 `Deadline must be in YYYY-MM-DD format.`
 
+## ⚠️ Out-of-Scope Handling
+
+StudyFlow is designed specifically for academic planning.
+It should not behave like a general-purpose chatbot.
+
+This test checks whether the agent correctly refuses a
+non-academic question.
+
 ## Project Structure
 
 ```text
