@@ -17,26 +17,33 @@ StudyFlow maintains session memory for stored tasks and conversation history. It
 - Failure handling
 - Jupyter Notebook demonstration
 
-## Agent Loop
 
+## 🔄 Agent Architecture
+
+StudyFlow follows a Plan → Act → Observe loop.
+
+```text
 User Request
      ↓
-Agent understands the goal
+AI Agent
      ↓
-PLAN → Select add_task
+PLAN
+Understand the goal and select a tool
      ↓
-ACT → add_task
+ACT
+Execute the selected tool
      ↓
-OBSERVE → Task added successfully
+OBSERVE
+Inspect the tool result
      ↓
-PLAN → Select build_schedule
+Another action needed?
+     ↓ Yes
+Select and execute another tool
      ↓
-ACT → build_schedule
-     ↓
-OBSERVE → Schedule generated
-     ↓
-Final Study Plan
-
+OBSERVE
+     ↓ No
+Final Response
+```
 
 ## Tools
 
