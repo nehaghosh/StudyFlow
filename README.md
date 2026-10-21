@@ -45,6 +45,9 @@ OBSERVE
 Final Response
 ```
 
+<img width="643" height="821" alt="image" src="https://github.com/user-attachments/assets/211403a7-9746-410e-ba79-14c083a1b2f9" />
+
+
 ## Tools
 
 ### 1. `add_task`
